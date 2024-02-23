@@ -31,4 +31,10 @@ jobs:
            pip install pytest pytest-cov
            pytest test_calculator.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
 
-        
+        - name: Build and Push Docker Image
+          uses: mr-smithers-exellent/docker-build-push@v4
+          with:
+            image: cicdmt001/cicd_v1.0
+            registry: docker.io
+            username: ${{ secrets.DOCKER_USERNAME }}
+            password: ${{ secrets.DOCKER_PASSWORD }}
