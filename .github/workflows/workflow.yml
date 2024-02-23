@@ -33,7 +33,7 @@ jobs:
 
         - name: Build and Push Docker Image
           run: |
-            echo "${{ secrets.DOCKER_PASSWORD }}" | docker login - u "cicdmt001" --password-stdin
+            echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "cicdmt001" --password-stdin
             docker image build -t cicdmt001/cicd_v1.0:v1
             docker push cicdmt001/cicd_v1.0:v1
           #uses: mr-smithers-excellent/docker-build-push@v4
