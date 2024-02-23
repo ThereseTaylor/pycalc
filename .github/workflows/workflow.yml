@@ -35,7 +35,6 @@ jobs:
           uses: mr-smithers-excellent/docker-build-push@v4
           with:
             image: cicdmt001/cicd_v1.0
-            tag: latest
             registry: docker.io
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
