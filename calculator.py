@@ -1,5 +1,5 @@
 def add(x: float, y: float) -> float:
-    return x + y + 1
+    return x + y
 
 
 def subtract(x: float, y: float) -> float:
