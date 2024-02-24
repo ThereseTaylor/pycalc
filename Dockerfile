@@ -1,6 +1,6 @@
-FROM ubuntu
+FROM scratch
 
-COPY calculator.py  
+COPY calculator.py testcalculator.py
 
-COPY testcalculator.py
+
 
