@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: python
+    image: python:3.9
     volumes:
       - ./src:/app
     working_dir: /app
