@@ -17,7 +17,7 @@ def divide(x: float, y: float) -> float:
 
 
 def main():
-    while(True):
+    while True:
         add(1, 1)
 
 
