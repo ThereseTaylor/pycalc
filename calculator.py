@@ -18,7 +18,7 @@ def divide(x: float, y: float) -> float:
 
 def main():
     while True:
-        add(1, 1)
+        print(1)
 
 
 if __name__ == "__main__":
