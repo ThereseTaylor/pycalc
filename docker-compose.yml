@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: python
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    command: ["python", "calculator.py"]
