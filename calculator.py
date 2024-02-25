@@ -15,11 +15,5 @@ def divide(x: float, y: float) -> float:
         raise ValueError("Cannot divide by zero")
     return x / y
 
-
-def main():
-    while True:
-        print(2)
-
-
 if __name__ == "__main__":
     main()
