@@ -19,6 +19,7 @@ def main():
     while True:
         x = int(input("Enter a number: "))
         y = int(input("Enter a number: "))
+        print(x,y)
 
 if __name__ == "__main__":
     main()
