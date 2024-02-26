@@ -19,11 +19,3 @@ def divide(x: float, y: float) -> float:
     return x / y
 
 
-def main():
-    while True:
-        print("Waiting...")
-        time.sleep(1)
-
-
-if __name__ == "__main__":
-    main()
